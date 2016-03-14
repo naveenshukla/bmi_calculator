@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".Bmi_Calculator">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your BMI Index is "
+            android:textSize="20dp"
+            android:paddingBottom="4dp"
+            android:textColor="#583f1a"
+            android:textAlignment="center"
+            android:id="@+id/textView4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/underweight"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

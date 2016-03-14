@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">eCare</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="title_activity_get_bmi">GetBmi</string>
+</resources>
